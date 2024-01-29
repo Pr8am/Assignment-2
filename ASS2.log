@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  9 JAN 2024 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  29 JAN 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,36 +1166,37 @@ LaTeX Info: Redefining \nameref on input line 93.
 \@outlinefile=\write4
 \openout4 = `ASS2.out'.
 
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-22.
+ (./Tables/table2.tex
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 4
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-22.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 4
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-22.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 4
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-22.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 4
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-22.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 4
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -1204,13 +1205,13 @@ Package rerunfilecheck Info: File `ASS2.out' has not changed.
 (rerunfilecheck)             Checksum: DB8B730FAB659DCC5DADB9E5F186E785;199.
  ) 
 Here is how much of TeX's memory you used:
- 29108 strings out of 480154
- 574262 string characters out of 5893789
- 827528 words of memory out of 5000000
- 46449 multiletter control sequences out of 15000+600000
- 526212 words of font info for 141 fonts, out of 8000000 for 9000
+ 29141 strings out of 480154
+ 574701 string characters out of 5893789
+ 830528 words of memory out of 5000000
+ 46474 multiletter control sequences out of 15000+600000
+ 534686 words of font info for 165 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 101i,8n,96p,496b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,8n,96p,496b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1218,10 +1219,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ASS2.pdf (1 page, 37863 bytes).
+Output written on ASS2.pdf (1 page, 40136 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
