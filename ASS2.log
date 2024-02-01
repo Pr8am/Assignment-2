@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  31 JAN 2024 16:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  1 FEB 2024 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,22 +1213,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
  []
 
+<figs/fig1.png, id=15, 404.712pt x 297.7524pt>
+File: figs/fig1.png Graphic file (type png)
+<use figs/fig1.png>
+Package pdftex.def Info: figs/fig1.png  used on input line 268.
+(pdftex.def)             Requested size: 252.0pt x 185.39966pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] (./ASS2.aux)
+] [2
+
+ <./figs/fig1.png>]
+(./ASS2.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `ASS2.out' has not changed.
 (rerunfilecheck)             Checksum: DB8B730FAB659DCC5DADB9E5F186E785;199.
  ) 
 Here is how much of TeX's memory you used:
- 29152 strings out of 480154
- 574826 string characters out of 5893789
- 850528 words of memory out of 5000000
- 46475 multiletter control sequences out of 15000+600000
- 536036 words of font info for 167 fonts, out of 8000000 for 9000
+ 29167 strings out of 480154
+ 575008 string characters out of 5893789
+ 851528 words of memory out of 5000000
+ 46482 multiletter control sequences out of 15000+600000
+ 537412 words of font info for 169 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  101i,12n,96p,496b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1240,10 +1251,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on ASS2.pdf (1 page, 56394 bytes).
+Output written on ASS2.pdf (2 pages, 70007 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 34 words of extra memory for PDF output out of 10000 (max. 10000000)
 

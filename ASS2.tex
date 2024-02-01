@@ -222,21 +222,21 @@ How many terms of the AP : 9, 17, 25, . . . must be taken to give a sum of 636?
 \input{Tables/table2}
 \begin{align}
 x\brak{n}= &\brak{9+8n}\brak{u\brak{n}}\\
-\implies X\brak{z}= &\frac9{1-z^{-1}} + \frac{8z^{-1}}{\brak{1-z^{-1}}^{2}} \quad\eqref{eq:APSum}\\
-\implies X\brak{z}=& \frac6{{\brak{1-z^{-1}}}^2} ,\quad |z|>1\\
+X\brak{z}= &\frac9{1-z^{-1}} + \frac{8z^{-1}}{\brak{1-z^{-1}}^{2}} \quad\eqref{eq:APSum}\\
+ X\brak{z}=& \frac6{{\brak{1-z^{-1}}}^2} ,\quad |z|>1\\
 y\brak{n}=& x\brak{n}* u\brak{n}\\
-\implies Y\brak{z}=& X\brak{z}U\brak{z} \\
+ Y\brak{z}=& X\brak{z}U\brak{z} \\
 =& \frac{9}{\brak{1-z^{-1}}^{2}}+ \frac{8}{\brak{1-z^{-1}}^{3}}, \quad |z|>1
 \end{align}
 Using contour integration to find the inverse Z-transform:\\
 \begin{align}
-    \implies y\brak{n}=&\dfrac{1}{2\pi j}\oint_{C}Y\brak{z} \;z^{38} \;dz\\
+    \implies y\brak{n}=&\dfrac{1}{2\pi j}\oint_{C}Y\brak{z} \;z^{n-1} \;dz\\
     =&\dfrac{1}{2\pi j}\oint_{C}\dfrac{9z^{n+1}}{\brak{{z-1}}^{2}}+ \dfrac{8z^{n}}{\brak{{z-1}}^{3}} \;dz 
 \end{align}
 Let us take $y(n) = y_1(n) + y_2(n)$\\
 We know,
 \begin{align}
-    \implies R&=\dfrac{1}{\brak {m-1}!}\lim\limits_{z\to a}\dfrac{d^{m-1}}{dz^{m-1}}\brak {{\brak{z-a}}^{m}f\brak z} 
+R&=\dfrac{1}{\brak {m-1}!}\lim\limits_{z\to a}\dfrac{d^{m-1}}{dz^{m-1}}\brak {{\brak{z-a}}^{m}f\brak z} 
 \end{align}
 For $y_1(n)$ we have a two time repeating pole at z = 1
 \begin{align}
@@ -252,14 +252,21 @@ and for $y_2(n)$ we have a three time repeating pole at z = 1
 \end{align}
 Adding both of the above equations, 
 \begin{align}
-y(n) =9(n+1) + 4n(n+1)
+y(n) =9(n+1) + 4n(n+1)\\
+y(n) = 4n^2+13n+9
 \end{align}
 We know $y(n) = 636$\\
 $\therefore$
 \begin{align}
 636 = 4n(n+1) + 9(n+1)\\
-\implies 4n^2 + 13n -627 = 0
+4n^2 + 13n -627 = 0
 \end{align}
 On solving the quadratic equation, we get the positive value of n as 11\\
 $\therefore$ there are 12 terms in the AP 
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\columnwidth]{figs/fig1.png}
+    \caption{Plot of y\brak{n} $vs$ n}
+    \label{fig: 10.5.3.12}
+\end{figure}
 \end{document}
